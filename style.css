@@ -1,0 +1,147 @@
+body, html {
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh; /* Ensure the container takes at least the full viewport height */
+    height: 50%;
+    margin-bottom: 100px;
+}
+
+h1 {
+    text-shadow: -1px 0 rgb(255, 255, 255), 0 1px rgb(255, 255, 255), 1px 0 rgb(252, 252, 252), 0 -1px rgb(255, 255, 255);
+    margin-left: 5px;
+    margin-top: 33px;
+    margin-bottom: 0;
+    font-size: 30px; /* Adjusted font size */
+}
+
+.logo {
+    margin-bottom: 30px; /* Added margin to create space between logo and form */
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    margin-right: 0px; /* Adjust margin between logo and text */
+    margin-left: 5px;
+}
+
+.container {
+    width: 570px;
+    height: auto; /* Change height to auto to accommodate content */
+    max-width: 100%; /* Ensure container does not exceed viewport width */
+    background-color: rgba(0, 0, 0, 0.589); 
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    text-align: center;
+    align-items: center;
+    margin: auto; /* Center the container horizontally */
+    margin-top: 50px; /* Adjusted top margin to center vertically */
+    display: flex; /* Use flexbox for centering */
+    flex-direction: column; /* Align items in a column */
+}
+
+
+.container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container label {
+    text-align: left; /* Align labels to the left */
+    width: 80%; /* Adjusted width */
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+    width: 100%; /* Adjusted width */
+    padding: 10px;
+    margin-top: 5px; /* Adjusted margin */
+    margin-bottom: 10px; /* Adjusted margin */
+    border-radius: 13px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    background-color: rgba(245, 241, 241, 0.692);
+    font-size: 14px;
+}
+
+
+.container input[class="Log in"] {
+    width: 100px; /* Set width to auto */
+    padding: 10px 20px; /* Adjust padding */
+    margin-top: 100px;
+    margin-bottom: 0px;
+    border-radius: 13px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    background-color: rgba(245, 241, 241, 0.692);
+    cursor: pointer;
+    display: block; /* Change to block element to center */
+    margin: 0 auto; /* Center the button horizontally */
+    font-size: 12px; /* Adjusted font size */
+    color: black; /* Set font color to black */
+}
+
+.container .login-button {
+    width: 110px;
+    height: 35px;
+    padding: 10px 20px;
+    margin-top: 90px;
+    margin-bottom: 0px;
+    border-radius: 13px;
+    border: 1px solid #cccccc;
+    box-sizing: border-box;
+    background-color: rgba(245, 241, 241, 0.692); /* Same background color as input boxes */
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+
+
+
+
+.forgot-password {
+    position: relative;
+    text-align: right; /* Align text to the right */
+    margin-top: -10px; /* Adjusted margin */
+    margin-right: 5px; /* Adjusted margin */
+    margin-left: 240px;
+}
+
+.forgot-password a {
+    color: #fff;
+    text-decoration: underline; /* Underline the text */
+    cursor: pointer; /* Change cursor to pointer */
+}
+
+
+
+.container p,
+a {
+    color: rgba(245, 241, 241, 0.925);
+    margin-top: 10px;
+    margin-bottom: -07px;
+}
+
+@media (max-width: 576px) {
+    .logo h1 {
+        font-size: 28px; /* Adjusted font size for smaller screens */
+    }
+}
+
+.container .inner-logo {
+    margin-bottom: 15px; /* Adjusted margin bottom */
+}
+
